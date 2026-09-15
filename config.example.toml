@@ -1,0 +1,33 @@
+# Copy to ~/Library/Application Support/halloy/config.toml (macOS) and fill in your details.
+
+theme = "solarized-dark"
+#theme = "solarized-light"
+
+[font]
+family = "Menlo"
+size = 14
+
+[servers.bouncer]
+server = "znc.example.com"
+port = 6697
+use_tls = true
+nickname = "yournick"
+password_command = "op item get 'ZNC' --fields password --reveal"
+
+[[highlights.match]]
+words = ["yournick", "yournick:", "@yournick"]
+case_insensitive = true
+
+[preview.card]
+exclude = "*"
+include = { channels = ["#your-channel"] }
+
+[buffer.internal_messages]
+success.smart = 300
+error.smart = 300
+
+[buffer]
+line_spacing = 4
+
+[buffer.nickname]
+alignment = "right"

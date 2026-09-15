@@ -1,0 +1,64 @@
+[general]
+background = "#FDF6E3"
+border = "#586E75"
+horizontal_rule = "#586E75"
+unread_indicator = "#586E75"
+
+[text]
+primary = "#657B83"
+secondary = "#93A1A1"
+tertiary = "#586E75"
+success = "#859900"
+error = "#DC322F"
+
+[buffer]
+action = "#CB4B16"
+background = "#FDF6E3"
+background_text_input = "#EEE8D5"
+background_title_bar = "#EEE8D5"
+border = "#657B83"
+border_selected = "#586E75"
+code = "#D33682"
+highlight = "#EEE8D5"
+nickname = "#268BD2"
+selection = "#EEE8D5"
+timestamp = "#93A1A1"
+topic = "#657B83"
+url = "#2AA198"
+
+  [buffer.server_messages]
+  default = "#93A1A1"
+
+[buttons.primary]
+background = "#FDF6E3"
+background_hover = "#EEE8D5"
+background_selected = "#EEE8D5"
+background_selected_hover = "#EEE8D5"
+
+[buttons.secondary]
+background = "#FDF6E3"
+background_hover = "#EEE8D5"
+background_selected = "#EEE8D5"
+background_selected_hover = "#EEE8D5"
+
+[formatting]
+# IRC color remap from https://github.com/lancewillett/colloquial-lance (Colloquial-Lance.css)
+# Active: only colors whose Halloy default is unreadable on #FDF6E3 (contrast below 3:1).
+# Each value also stays at 4.7:1 or better on the black chip bots put behind PROBLEM:/RECOVERY:.
+white = "#969696"
+orange = "#b26319"
+yellow = "#91901b"
+lightgreen = "#408c31"
+lightcyan = "#048a8a"
+pink = "#b559b1"
+lightgrey = "#868686"
+# Keep black default: bots use it as the background behind PROBLEM:/RECOVERY: labels.
+# black = "#303030"
+# blue = "#6448a6"
+# green = "#13680c"
+# red = "#cc583e"
+# brown = "#a23220"
+# magenta = "#8e348c"
+# cyan = "#006464"
+# lightblue = "#8a6acd"
+# grey = "#777777"
