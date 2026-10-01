@@ -45,7 +45,9 @@ background_selected_hover = "#EEE8D5"
 # IRC color remap from https://github.com/lancewillett/colloquial-lance (Colloquial-Lance.css)
 # Active: only colors whose Halloy default is unreadable on #FDF6E3 (contrast below 3:1).
 # Each value also stays at 4.7:1 or better on the black chip bots put behind PROBLEM:/RECOVERY:.
-white = "#969696"
+# Deploy lines are white on green: an olive chip with page-colored text; 4.4:1 on page and black.
+green = "#6b7a00"
+white = "#FDF6E3"
 orange = "#b26319"
 yellow = "#91901b"
 lightgreen = "#408c31"
@@ -55,7 +57,6 @@ lightgrey = "#868686"
 # Keep black default: bots use it as the background behind PROBLEM:/RECOVERY: labels.
 # black = "#303030"
 # blue = "#6448a6"
-# green = "#13680c"
 # red = "#cc583e"
 # brown = "#a23220"
 # magenta = "#8e348c"

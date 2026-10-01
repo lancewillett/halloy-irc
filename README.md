@@ -33,7 +33,9 @@ Halloy can also read the [system keychain](https://halloy.chat/guides/keyring) o
 
 Bots color their messages with the 16 mIRC colors. Several of the defaults are nearly invisible on a Solarized background. A theme's `[formatting]` table [overrides them](https://halloy.chat/guides/custom-themes).
 
-The themes here override only the colors below 3:1 contrast, using values from my LimeChat theme, [Colloquial-Lance](https://github.com/lancewillett/colloquial-lance). The rest stay as comments, ready to turn on.
+The themes here override the colors below 3:1 contrast, using values from my LimeChat theme, [Colloquial-Lance](https://github.com/lancewillett/colloquial-lance). The rest stay as comments, ready to turn on.
+
+They also tone down the bright white-on-green deploy lines. `green` becomes a muted olive and `white` matches the page, so those lines read as a quiet chip while green text stays readable.
 
 Two things to know:
 

@@ -48,10 +48,11 @@ blue = "#5a8bd6"
 brown = "#c98a5a"
 magenta = "#c97ac9"
 lightblue = "#6f96e6"
+# Deploy lines are white on green: an olive chip with page-colored text, green text stays readable.
+green = "#859900"
+white = "#002B36"
 # Keep black default: bots use it as the background behind PROBLEM:/RECOVERY: labels.
 # black = "#c8c8c8"
-# white = "#e8e8e8"
-# green = "#5fb950"
 # red = "#ff5c5c"
 # orange = "#f0a050"
 # yellow = "#e3cf4a"
